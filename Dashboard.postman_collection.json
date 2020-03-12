@@ -1,0 +1,274 @@
+{
+	"id": "2533c568-a824-f8fa-2607-b9807b2c267d",
+	"name": "Dashboard",
+	"description": "",
+	"order": [
+		"e8b83d41-763e-738c-0434-81a139b8810e",
+		"39f64cb6-ff1e-eb1b-acbf-7ac3ff3885f5",
+		"3089a310-f360-e0ef-e392-bcd97af82120",
+		"3997f275-c3dd-1a38-69e0-583419c68b4a",
+		"b2df250b-454d-35aa-32a0-0122ab98ac6f",
+		"3333c92c-a60f-7e4d-f07c-dbdbfae20394"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1582635818419,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3089a310-f360-e0ef-e392-bcd97af82120",
+			"headers": "",
+			"headerData": [],
+			"url": "http://dashboard/api/tasks",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "Test title",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Test description",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2NDMwOTksImV4cCI6MTU4MjY0NjY5OSwibmJmIjoxNTgyNjQzMDk5LCJqdGkiOiI4SkVEVjdrSzh1b3NMVTZEIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.6Kv_xNBZ5j3mY7vuK6k-ex45q7lD7U-O7uISC5Ttk0g",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582643187953,
+			"name": "http://dashboard/api/tasks",
+			"description": "",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"responses": []
+		},
+		{
+			"id": "3333c92c-a60f-7e4d-f07c-dbdbfae20394",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://dashboard/api/tasks/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2MzY0NjgsImV4cCI6MTU4MjY0MDA2OCwibmJmIjoxNTgyNjM2NDY4LCJqdGkiOiJPOXdVQnIxMlNYQlVKYWJ1Iiwic3ViIjoyLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.LND8gJ4cu4VWb3B20b5JnF2-ZOrmMdTq1vxNkKhB2lo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://dashboard/api/tasks/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582637698576,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3997f275-c3dd-1a38-69e0-583419c68b4a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://dashboard/api/tasks?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2NDMwOTksImV4cCI6MTU4MjY0NjY5OSwibmJmIjoxNTgyNjQzMDk5LCJqdGkiOiI4SkVEVjdrSzh1b3NMVTZEIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.6Kv_xNBZ5j3mY7vuK6k-ex45q7lD7U-O7uISC5Ttk0g",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2NDMwOTksImV4cCI6MTU4MjY0NjY5OSwibmJmIjoxNTgyNjQzMDk5LCJqdGkiOiI4SkVEVjdrSzh1b3NMVTZEIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.6Kv_xNBZ5j3mY7vuK6k-ex45q7lD7U-O7uISC5Ttk0g",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582643188778,
+			"name": "http://dashboard/api/tasks?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2MzY0NjgsImV4cCI6MTU4MjY0MDA2OCwibmJmIjoxNTgyNjM2NDY4LCJqdGkiOiJPOXdVQnIxMlNYQlVKYWJ1Iiwic3ViIjoyLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.LND8gJ4cu4VWb3B20b5JnF2-ZOrmMdTq1vxNkKhB2lo",
+			"description": "",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"responses": []
+		},
+		{
+			"id": "39f64cb6-ff1e-eb1b-acbf-7ac3ff3885f5",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://dashboard/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "pawruol@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "qazasdfghy",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582643187081,
+			"name": "http://dashboard/api/login",
+			"description": "",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"responses": []
+		},
+		{
+			"id": "b2df250b-454d-35aa-32a0-0122ab98ac6f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://dashboard/api/tasks/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "title",
+					"value": "Test updated title 1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Test updated description 1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kYXNoYm9hcmRcL2FwaVwvbG9naW4iLCJpYXQiOjE1ODI2NDMwOTksImV4cCI6MTU4MjY0NjY5OSwibmJmIjoxNTgyNjQzMDk5LCJqdGkiOiI4SkVEVjdrSzh1b3NMVTZEIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.6Kv_xNBZ5j3mY7vuK6k-ex45q7lD7U-O7uISC5Ttk0g",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582643189657,
+			"name": "http://dashboard/api/tasks/1",
+			"description": "",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"responses": []
+		},
+		{
+			"id": "e8b83d41-763e-738c-0434-81a139b8810e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://dashboard/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Ruslan Pavlenko",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "pawruol@gmail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "qazasdfghy",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582643186105,
+			"name": "api/register",
+			"description": "",
+			"collectionId": "2533c568-a824-f8fa-2607-b9807b2c267d",
+			"responses": []
+		}
+	]
+}
